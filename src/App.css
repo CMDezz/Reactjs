@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background-color: lightblue;
+  font-family: verdana;
+  font-size: 80px;
+  width: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+a{
+
+      font-family: verdana;
+      font-size: 80px;
+
+  
+}
+
+.calDisplay .showDisplay{
+    font-size: 110px;
+    margin-bottom: 0;
+    height: 165px;
+}
+
+
+.calButton a {
+   text-decoration: none;
+    color:black;
+    height: 120px;
+    line-height: 120px;
+    border: solid 0.5px #858694;
+    /* border-radius: 5px; */
+    background-color: #e0e0e0;
+    /* margin-top: 0.5px; */
+    
+}
+.calButton a:hover{
+  text-decoration: none;
+  color:black;
+  background-color: #d0cfcf;
+  transition: all 0.5s;
+}
+
+.dacbiet{
+    background-color: #f5923ed9 !important;
+}
+.dacbiet:hover{
+  background-color: #d0803e !important;
+  transition: all 0.5s;
+}
